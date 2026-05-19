@@ -16,8 +16,8 @@ date >> daily_report.txt
 cd ..
 cp -r docs/. backup/
 
-chmod -444 backup/daily_report.txt
-chmod -444 backup/readme.txt
+chmod 444 backup/daily_report.txt
+chmod 444 backup/readme.txt
 
 echo "Archive Complete. File [daily_report.txt] is now read-only"
 echo "Archive Complete. File [readme.txt] is now read-only"
