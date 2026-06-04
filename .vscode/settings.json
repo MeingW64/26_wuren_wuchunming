@@ -1,4 +1,5 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:conda",
-    "python-envs.defaultPackageManager": "ms-python.python:conda"
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "cmake.sourceDirectory": "/home/wu/Desktop/26_wuren_wuchunming/ros2_homework_advanced_ws/build/fsd_common_msgs/fsd_common_msgs__py"
 }

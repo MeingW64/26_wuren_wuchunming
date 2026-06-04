@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fsd_common_msgs__rs",
+		"source" : "/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/build/fsd_common_msgs/fsd_common_msgs__rs"
+	}
+}

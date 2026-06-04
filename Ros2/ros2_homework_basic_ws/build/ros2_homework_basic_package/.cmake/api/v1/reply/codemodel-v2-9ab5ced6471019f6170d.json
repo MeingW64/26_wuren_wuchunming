@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-88036d21d92ed1a550cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_homework_basic_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "eight_move::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-eight_move-fe7b8635011f55bcd747.json",
+					"name" : "eight_move",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_homework_basic_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_homework_basic_package_uninstall-0c98950c811581f89805.json",
+					"name" : "ros2_homework_basic_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e839de40bcf9441edc14.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_basic_ws/build/ros2_homework_basic_package",
+		"source" : "/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_basic_ws/src/ros2_homework_basic_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

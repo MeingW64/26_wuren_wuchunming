@@ -1,0 +1,81 @@
+[0.008s] Invoking command in '/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/build/ros2_homework_advanced_package': AMENT_PREFIX_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs:/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_basic_ws/install/ros2_homework_basic_package:/home/wu/Desktop/学习/ros2_learning-main/ros2_case/install/topic_case_package:/home/wu/Desktop/学习/ros2_learning-main/ros2_case/install/param_case_package:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/src/ros2_homework_advanced_package -DCMAKE_INSTALL_PREFIX=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.196s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.206s] -- Detecting C compile features - done
+[0.209s] -- Detecting CXX compiler ABI info
+[0.299s] -- Detecting CXX compiler ABI info - done
+[0.306s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.306s] -- Detecting CXX compile features
+[0.306s] -- Detecting CXX compile features - done
+[0.309s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.449s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.521s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.551s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.554s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.559s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.577s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.612s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.614s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.706s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.736s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.777s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.787s] -- Looking for pthread.h
+[0.851s] -- Looking for pthread.h - found
+[0.851s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.927s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.929s] -- Found Threads: TRUE  
+[0.979s] -- Found fsd_common_msgs: 0.0.0 (/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs/share/fsd_common_msgs/cmake)
+[1.023s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.053s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.113s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.113s] -- Configured cppcheck include dirs: 
+[1.113s] -- Configured cppcheck exclude dirs and/or files: 
+[1.113s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.114s] -- Added test 'lint_cmake' to check CMake code style
+[1.114s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.115s] -- Added test 'uncrustify' to check C / C++ code style
+[1.115s] -- Configured uncrustify additional arguments: 
+[1.116s] -- Added test 'xmllint' to check XML markup files
+[1.116s] -- Configuring done
+[1.124s] -- Generating done
+[1.126s] -- Build files have been written to: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/build/ros2_homework_advanced_package
+[1.133s] Invoked command in '/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/build/ros2_homework_advanced_package' returned '0': AMENT_PREFIX_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs:/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_basic_ws/install/ros2_homework_basic_package:/home/wu/Desktop/学习/ros2_learning-main/ros2_case/install/topic_case_package:/home/wu/Desktop/学习/ros2_learning-main/ros2_case/install/param_case_package:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/src/ros2_homework_advanced_package -DCMAKE_INSTALL_PREFIX=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package
+[1.134s] Invoking command in '/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/build/ros2_homework_advanced_package': AMENT_PREFIX_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs:/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_basic_ws/install/ros2_homework_basic_package:/home/wu/Desktop/学习/ros2_learning-main/ros2_case/install/topic_case_package:/home/wu/Desktop/学习/ros2_learning-main/ros2_case/install/param_case_package:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/build/ros2_homework_advanced_package -- -j24 -l24
+[1.179s] [ 50%] [32mBuilding CXX object CMakeFiles/map_builder.dir/src/map_builder.cpp.o[0m
+[6.391s] [100%] [32m[1mLinking CXX executable map_builder[0m
+[6.727s] [100%] Built target map_builder
+[6.735s] Invoked command in '/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/build/ros2_homework_advanced_package' returned '0': AMENT_PREFIX_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs:/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_basic_ws/install/ros2_homework_basic_package:/home/wu/Desktop/学习/ros2_learning-main/ros2_case/install/topic_case_package:/home/wu/Desktop/学习/ros2_learning-main/ros2_case/install/param_case_package:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/build/ros2_homework_advanced_package -- -j24 -l24
+[6.736s] Invoking command in '/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/build/ros2_homework_advanced_package': AMENT_PREFIX_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs:/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_basic_ws/install/ros2_homework_basic_package:/home/wu/Desktop/学习/ros2_learning-main/ros2_case/install/topic_case_package:/home/wu/Desktop/学习/ros2_learning-main/ros2_case/install/param_case_package:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/build/ros2_homework_advanced_package
+[6.747s] -- Install configuration: ""
+[6.747s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/lib/ros2_homework_advanced_package/map_builder
+[6.751s] -- Set runtime path of "/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/lib/ros2_homework_advanced_package/map_builder" to ""
+[6.751s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/bag
+[6.751s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/bag/frames_2026-06-04_22.24.36.pdf
+[6.752s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/bag/metadata.yaml
+[6.753s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/bag/frames_2026-06-04_22.24.36.gv
+[6.754s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/bag/map_to_visualize_0.db3
+[6.756s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/launch
+[6.756s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/launch/map_builder.launch.py
+[6.757s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/config
+[6.757s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/config/rviz_init.rviz
+[6.757s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ament_index/resource_index/package_run_dependencies/ros2_homework_advanced_package
+[6.758s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ament_index/resource_index/parent_prefix_path/ros2_homework_advanced_package
+[6.758s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/environment/ament_prefix_path.sh
+[6.758s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/environment/ament_prefix_path.dsv
+[6.758s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/environment/path.sh
+[6.758s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/environment/path.dsv
+[6.758s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/local_setup.bash
+[6.758s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/local_setup.sh
+[6.758s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/local_setup.zsh
+[6.758s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/local_setup.dsv
+[6.759s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/package.dsv
+[6.759s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ament_index/resource_index/packages/ros2_homework_advanced_package
+[6.759s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/cmake/ros2_homework_advanced_packageConfig.cmake
+[6.759s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/cmake/ros2_homework_advanced_packageConfig-version.cmake
+[6.759s] -- Installing: /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/ros2_homework_advanced_package/share/ros2_homework_advanced_package/package.xml
+[6.761s] Invoked command in '/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/build/ros2_homework_advanced_package' returned '0': AMENT_PREFIX_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs:/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_basic_ws/install/ros2_homework_basic_package:/home/wu/Desktop/学习/ros2_learning-main/ros2_case/install/topic_case_package:/home/wu/Desktop/学习/ros2_learning-main/ros2_case/install/param_case_package:/opt/ros/humble LD_LIBRARY_PATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/install/fsd_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wu/Desktop/26_wuren_wuchunming/Ros2/ros2_homework_advanced_ws/build/ros2_homework_advanced_package

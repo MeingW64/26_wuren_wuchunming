@@ -1,0 +1,5 @@
+eight_move:                     # 节点名
+  ros__parameters:
+    v: 2.0
+    omiga: 2.0
+    v_agl: 1.0
